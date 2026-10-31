@@ -1,0 +1,28 @@
+{
+	"geode": "5.0.0",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "yourname.claude-link",
+	"name": "Claude Link",
+	"version": "v0.1.0",
+	"developer": "yourname",
+	"description": "Chat with Claude from the pause menu, and let it place objects in the editor.",
+	"settings": {
+		"api-key": {
+			"type": "string",
+			"name": "Anthropic API key",
+			"description": "Your key from console.anthropic.com. Stored locally on your machine.",
+			"default": ""
+		},
+		"model": {
+			"type": "string",
+			"name": "Model",
+			"description": "Claude model to use.",
+			"default": "claude-sonnet-5-5"
+		}
+	}
+}
